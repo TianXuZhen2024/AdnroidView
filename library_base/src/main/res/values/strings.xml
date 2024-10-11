@@ -1,0 +1,23 @@
+<resources>
+    <!---*************************************   常用 *******************************************************************-->
+    <string name="empty_view">当前暂无数据</string>
+
+    <!---*************************************   权限申请 *******************************************************************-->
+
+    <string name="permission_info">此功能需要如下权限，才能为您提供服务</string>
+    <string name="permission_show">当前权限被拒绝，若要使用此功能，烦请同意权限</string>
+    <string name="permission_setting">权限已被拒绝，若要使用此功能，烦请进入【权限管理】，手动开启权限</string>
+
+    <string name="permission_info_call">应用需要【电话权限】，才能为您提供拨打电话服务</string>
+
+    <string name="permission_refuse_info_default">功能需要相关权限，如果拒绝，你将无法使用此功能</string>
+    <string name="permission_set_default">权限已被拒绝，功能无法使用，前往【权限管理】开启权限</string>
+
+    <string name="location_service_refuse">定位服务没有开启，无法使用定位功能，烦请开启定位</string>
+    <string name="permission_refuse_location">获取地址功能需要【定位权限】，如果拒绝，你将无法使用此功能</string>
+    <string name="permission_set_location">【定位权限】已被拒绝，获取地址功能无法使用，前往【权限管理】同时开启【精准】定位权限</string>
+
+    <string name="location_service_refuse_sign">定位服务没有开启，无法使用定位功能，烦请开启定位</string>
+    <string name="permission_refuse_location_sign">签约对保拍照需要获取地址功能，需要【精准定位权限】，如果拒绝，拍照图片将无法水印，影响后续审查</string>
+
+</resources>

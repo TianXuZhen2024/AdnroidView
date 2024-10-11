@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    主题颜色-->
+    <color name="theme_color">#4857BD</color>
+    <color name="statusBarColor">@color/theme_color</color>
+    <color name="colorPrimaryDark">@color/theme_color</color>
+    <color name="bg_activity">#F6F6F6</color>
+    <!--    文字颜色-->
+    <color name="tv_title">#202020</color>
+    <color name="tv_text">#202020</color>
+    <color name="tv_label">#757575</color>
+    <!--    按钮颜色-->
+    <color name="button_pressed">@color/theme_color</color>
+
+    <color name="tools_color">#C5BEBE</color>
+
+    <!--    常用纯色-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

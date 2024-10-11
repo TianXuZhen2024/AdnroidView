@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--参考样式    https://www.mdui.org/design/style/typography.html-->
+    <!--    textView-->
+    <!--    默认标题文字效果-->
+    <style name="tv_title" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/tv_title</item>
+    </style>
+    <!--    标签内容、次一级内容-->
+    <style name="tv_label" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/tv_label</item>
+    </style>
+    <!--    默认正文显示效果-->
+    <style name="tv_content" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/tv_text</item>
+    </style>
+    <!--    默认的白字主题底色-->
+    <style name="button_white" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@color/theme_color</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <!--    默认的白字主题底色,带8圆角-->
+    <style name="button_white.r8">
+        <item name="android:background">@drawable/shape_white_r8</item>
+    </style>
+    <!--    默认的主题文字色白底色-->
+    <style name="button_theme_default" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/theme_color</item>
+    </style>
+    <!--    默认的主题文字色白底色，带圆角-->
+    <style name="button_theme_default.r8">
+        <item name="android:background">@drawable/shape_theme_r8</item>
+    </style>
+    <!--    默认的主题文字色无色，带圆角-->
+    <style name="button_theme_default.stroke">
+        <item name="android:background">@drawable/shape_theme_stroke_r8</item>
+    </style>
+
+    <!--    base dialog style 基础dialog的style-->
+    <style name="base_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!--    base dialog style 基础center dialog的style-->
+    <style name="base_center_dialog" parent="base_dialog">
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 遮罩层 -->
+        <item name="android:backgroundDimAmount">0.5</item>
+        <!-- 半透明 -->
+        <!--        <item name="android:windowBackground">@drawable/bg_r8_white</item>-->
+    </style>
+
+    <!--    实线-->
+    <style name="full_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#E7E7E7</item>
+    </style>
+</resources>
